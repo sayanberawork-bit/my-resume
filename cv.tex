@@ -1,103 +1,95 @@
 \documentclass[a4paper,10pt]{article}
 
-\usepackage[left=0.75in,right=0.75in,top=0.75in,bottom=0.75in]{geometry}
+\usepackage[left=0.6in,right=0.6in,top=0.6in,bottom=0.6in]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage[hidelinks]{hyperref}
 \usepackage{xcolor}
 \usepackage{fontawesome5}
 
-% ===== COLORS =====
-\definecolor{primary}{HTML}{111827}   % Dark professional
-\definecolor{accent}{HTML}{2563EB}    % Subtle blue
+% Colors
+\definecolor{primary}{HTML}{0F172A}
+\definecolor{accent}{HTML}{2563EB}
 
-% ===== SECTION STYLE =====
+% Section style
 \titleformat{\section}
-{\large\bfseries\color{primary}}
+{\normalsize\bfseries\color{primary}}
 {}{0em}{}[\color{accent}\titlerule]
 
-\setlist[itemize]{noitemsep, topsep=4pt, leftmargin=1.2em}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.1em}
 
 \begin{document}
 
-% ===== HEADER =====
+% HEADER
 \begin{center}
-    {\Huge \textbf{\color{primary}Sayan Bera}} \\[6pt]
-    {\small \textcolor{gray}{Frontend Engineer | React | Next.js | TypeScript}} \\[8pt]
+    {\Large \textbf{\color{primary}Sayan Bera}} \\
+    {\small Frontend Engineer | React | Next.js | TypeScript} \\[4pt]
 
     \faEnvelope \ \href{mailto:sayanbera.work@gmail.com}{sayanbera.work@gmail.com} \quad
     \faPhone \ +91-7076778167 \quad
-    \faMapMarker* \ Kolkata, India \\[6pt]
+    \faMapMarker* \ Kolkata \\
 
     \faLinkedin \ \href{https://www.linkedin.com/in/sayan-bera-a3b88b1b3}{linkedin.com/in/sayan-bera} \quad
     \faGithub \ \href{https://github.com/sayanberawork-bit}{github.com/sayanberawork-bit}
 \end{center}
 
-\vspace{10pt}
+\vspace{-4pt}
 
-% ===== SUMMARY =====
+% SUMMARY
 \section*{Summary}
-Frontend Engineer with 4+ years of experience building scalable, high-performance web applications using React, Next.js, and TypeScript. Specialized in frontend architecture, reusable component systems, and performance optimization aligned with Core Web Vitals. Delivered measurable impact including \textbf{25\% faster load times}, \textbf{30\% faster development cycles}, and platforms serving \textbf{10,000+ users}.
+Frontend Engineer with 4+ years of experience building scalable web applications using React, Next.js, and TypeScript. Improved performance by \textbf{25\%}, accelerated development by \textbf{30\%}, and delivered platforms used by \textbf{10,000+ users}.
 
-% ===== EXPERIENCE =====
+\vspace{-6pt}
+
+% EXPERIENCE
 \section*{Experience}
 
-\textbf{Frontend Engineer — Infosys} \hfill {\small Feb 2023 -- Present | Kolkata}
+\textbf{Frontend Engineer — Infosys} \hfill {\small Feb 2023 -- Present}
 \begin{itemize}
-    \item Built and scaled \textbf{15+ production-grade UI modules} using React, Next.js, and TypeScript, improving system consistency and maintainability
-    \item Designed and implemented a \textbf{reusable component architecture}, reducing development effort by \textbf{30\%} across multiple teams
-    \item Led frontend state architecture using \textbf{Redux Toolkit} and \textbf{React Query}, improving data flow reliability
-    \item Improved performance by \textbf{25\%} through code splitting, lazy loading, and bundle optimization strategies
-    \item Reduced API latency impact by optimizing rendering cycles and asynchronous data handling
-    \item Maintained \textbf{zero downtime} across applications serving \textbf{10,000+ users}
-    \item Increased team delivery speed by \textbf{20\%} through better sprint planning and technical alignment
+    \item Built \textbf{15+ production-grade UI modules}, improving scalability and maintainability
+    \item Developed reusable component system, reducing dev effort by \textbf{30\%}
+    \item Implemented state management using Redux Toolkit + React Query
+    \item Improved performance by \textbf{25\%} via lazy loading and code splitting
+    \item Reduced API latency through optimized rendering and async handling
+    \item Maintained \textbf{zero downtime} for 10,000+ users
 \end{itemize}
 
-\textbf{Associate Software Engineer — Infosys} \hfill {\small Jan 2022 -- Jan 2023 | Bhubaneswar}
+\textbf{Associate Software Engineer — Infosys} \hfill {\small Jan 2022 -- Jan 2023}
 \begin{itemize}
-    \item Developed enterprise seat booking platform used by \textbf{5,000+ users} with role-based workflows
-    \item Built responsive dashboards and complex forms using React and Material UI
-    \item Improved backend communication efficiency, increasing response speed by \textbf{50\%}
-    \item Enhanced user experience through validation systems and dynamic UI updates
+    \item Built seat booking platform used by \textbf{5,000+ users}
+    \item Developed dashboards and forms using React + Material UI
+    \item Improved API speed by \textbf{50\%}
 \end{itemize}
 
-% ===== SKILLS =====
+\vspace{-6pt}
+
+% SKILLS
 \section*{Skills}
-\textbf{Frontend:} React.js, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3 \\
-\textbf{UI:} Tailwind CSS, Material UI, Ant Design, Styled Components \\
+\textbf{Frontend:} React, Next.js, TypeScript, JavaScript, HTML, CSS \\
+\textbf{UI:} Tailwind, Material UI, Ant Design \\
 \textbf{State:} Redux Toolkit, Context API \\
-\textbf{Performance:} Core Web Vitals, Lazy Loading, Code Splitting, SSR, SSG \\
-\textbf{Testing:} Jest, React Testing Library \\
-\textbf{Tools:} Git, GitHub, CI/CD, Jenkins, Jira, Agile/Scrum
+\textbf{Performance:} Core Web Vitals, SSR, SSG \\
+\textbf{Tools:} Git, CI/CD, Jenkins, Jira
 
-% ===== PROJECTS =====
+\vspace{-6pt}
+
+% PROJECTS
 \section*{Projects}
+\textbf{E-Commerce Platform} — Auth, cart, order workflows \\
+\textbf{Weather Dashboard} — Real-time API + responsive UI
 
-\textbf{E-Commerce Platform}
-\begin{itemize}
-    \item Developed scalable frontend architecture with authentication, cart, and order workflows
-    \item Improved maintainability through modular component design and reusable logic
-\end{itemize}
+\vspace{-6pt}
 
-\textbf{Weather Dashboard}
-\begin{itemize}
-    \item Built real-time weather dashboard with API integration and responsive UI
-    \item Optimized data fetching and rendering for seamless performance
-\end{itemize}
-
-% ===== ACHIEVEMENTS =====
+% ACHIEVEMENTS
 \section*{Achievements}
-\begin{itemize}
-    \item Awarded \textbf{Rising Star 2024} at Infosys for outstanding performance
-    \item Delivered \textbf{25\% performance improvement} and \textbf{30\% faster feature delivery}
-\end{itemize}
+Rising Star 2024 — Infosys \quad | \quad 25\% performance boost, 30\% faster delivery
 
-% ===== EDUCATION =====
+\vspace{-6pt}
+
+% EDUCATION
 \section*{Education}
-\textbf{B.Tech — JIS College of Engineering} \hfill CGPA: 7.9 \\
-Intermediate — Mugberia Gangadhar High School \hfill CGPA: 7.8 \\
-Secondary — Jukhia K. N. Banimandir High School \hfill CGPA: 8.2 \\
-
-Google Cloud Associate Certification
+B.Tech — JIS College of Engineering (7.9) \\
+12th — Mugberia Gangadhar HS (7.8) \\
+10th — Jukhia K.N. Banimandir (8.2)
 
 \end{document}
