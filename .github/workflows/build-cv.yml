@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add Subam_Sarkar_Data_Engineer.pdf
+          git add Sayan_Bera_CV.pdf
           git diff --staged --quiet || git commit -m "📄 Auto-build: Updated CV PDF [skip ci]"
           git push
 
@@ -44,5 +44,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Subam_Sarkar_Data_Engineer
-          path: Subam_Sarkar_Data_Engineer.pdf
+          path: Sayan_Bera_CV.pdf
           retention-days: 90
